@@ -12,4 +12,12 @@
 * git log -> to list all the commit
 
 ### Create a repo on github
-* git remote add your origin
+* git remote add origin Your **Repo name**
+* git branch -M main
+* git push -u origin main
+
+To ignore any of folder/files -> create .gitignore files and put file/folder name  in it 
+### Always 
+* git add .
+* git commit -m "message"
+* git push
